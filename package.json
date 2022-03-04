@@ -1,6 +1,6 @@
 {
   "name": "@jenst/template-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "template create cli for starfire and web",
   "main": "index.js",
   "bin": {
