@@ -1,0 +1,20 @@
+{
+  "name": "@jenst/template-cli",
+  "version": "1.0.1",
+  "description": "template create cli for starfire and web",
+  "main": "index.js",
+  "bin": {
+    "addTemplate": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhenglong",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.9",
+    "axios": "^0.26.0",
+    "commander": "^9.0.0",
+    "download-git-repo": "^3.0.2"
+  }
+}
