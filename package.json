@@ -1,6 +1,6 @@
 {
   "name": "@jenst/template-cli",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "template create cli for starfire and web",
   "main": "index.js",
   "bin": {
@@ -16,5 +16,11 @@
     "axios": "^0.26.0",
     "commander": "^9.0.0",
     "download-git-repo": "^3.0.2"
+  },
+  "devDependencies": {
+    "semantic-release": "^19.0.2"
+  },
+  "release": {
+    "repositoryUrl": "https://github.com/zhenglong0034/template-cli.git"
   }
 }
