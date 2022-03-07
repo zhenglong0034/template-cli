@@ -22,5 +22,15 @@
   },
   "release": {
     "repositoryUrl": "https://github.com/zhenglong0034/template-cli.git"
-  }
+  },
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    ["@semantic-release/github", {
+      "assets": [
+        {"path": "bin/index.js", "label": "js index"},
+        {"path": "package.json", "label": "pk json"}
+      ]
+    }]
+  ]
 }
