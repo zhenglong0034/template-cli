@@ -23,29 +23,29 @@
     "semantic-release": "^19.0.2"
   },
   "release": {
-    "repositoryUrl": "https://github.com/zhenglong0034/template-cli.git"
-  },
-  "plugins": [
-    "@semantic-release/commit-analyzer",
-    "@semantic-release/release-notes-generator",
-    [
-      "@semantic-release/changelog",
-      {
-          "changelogFile": "CHANGELOG.md",
-          "changelogTitle": "# my-changelog-test"
-      }
-    ],
-    "@semantic-release/npm",
-    "@semantic-release/github",
-    [
-        "@semantic-release/git",
+    "repositoryUrl": "https://github.com/zhenglong0034/template-cli.git",
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/changelog",
         {
-            "assets": [
-                "bin",
-                "CHANGELOG.md",
-                "package.json"
-            ]
+            "changelogFile": "CHANGELOG.md",
+            "changelogTitle": "# my-changelog-test"
         }
+      ],
+      "@semantic-release/npm",
+      "@semantic-release/github",
+      [
+          "@semantic-release/git",
+          {
+              "assets": [
+                  "bin",
+                  "CHANGELOG.md",
+                  "package.json"
+              ]
+          }
+      ]
     ]
-  ]
+  }
 }
